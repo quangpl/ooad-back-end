@@ -1,0 +1,113 @@
+.app {
+height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.detail {
+  background-color: #ffffff;
+}
+.detail-thumbnail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #F4F4F4;
+}
+.detail-info{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.detail-info--text{
+  margin:5px;
+}
+.detail-info--price{
+  color:#FF5B4E;
+  font-size:30px;
+}
+.detail-info--discount{
+  color:#BEBEBE;
+}
+.detail-info--action{
+   display: flex;
+   align-items: center;
+   align-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom:15px;
+}
+.comment {
+  padding:20px ;
+  background-color: #ffffff;
+}
+.comment-item{
+  border-radius: 10px;
+  margin: 8px;
+ border:1px solid #F4F4F4 ;
+}
+
+.mt-1{
+  margin-top:10px;
+}
+
+.form-login{
+  text-align: center;
+  margin: 0 auto;
+  width: 400px ;
+}
+
+
+.register-form{
+  text-align: center;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.user-bar{
+  background: blue;
+  display: flex;
+  justify-content: space-between;
+}
+.category{
+  margin-bottom: 10px;
+  margin-top: 10px;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-weight: 400;
+}
+.stack-book{
+  padding:10px;
+  background: white;
+}
+.btn-load{
+  margin-top: 20px;
+  display: block;
+   width: 13%;
+  margin: 0 auto;
+}
+.action{
+  display:"flex";
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.ant-form-item-label{
+  overflow: auto !important;
+}
