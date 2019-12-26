@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/culicode/github/ooad-back-end/package.json: Unexpected token } in JSON at position 481
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "ooad-back-end",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "axios": "^0.19.0",
+      "bcrypt": "^3.0.7",
+      "cookie-parser": "~1.4.3",
+      "cors": "^2.8.5",
+      "debug": "~2.6.9",
+      "ejs": "~2.5.7",
+      "express": "~4.16.0",
+      "http-errors": "~1.6.2",
+      "lodash": "^4.17.15",
+      "moment": "^2.24.0",
+      "mongoose": "^5.8.1",
+      "morgan": "~1.9.0",
+      "randomstring": "^1.1.5"
+    },
+    "scripts": {
+      "start": "node ./server/app.js"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
